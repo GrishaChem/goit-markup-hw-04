@@ -273,6 +273,14 @@ ul {
 
 .icon-wrap {
   display: flex;
+  border-radius: 4px;
+  background-color: #f4f4fd;
+  border: 1px solid #8e8f99;
+  width: 264px;
+  height: 112px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
 }
 
 /* .solutions-icon {
@@ -298,6 +306,8 @@ ul {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+/* our-team */
 
 .our-team {
   background: #f4f4fd;
@@ -326,24 +336,36 @@ ul {
   display: flex;
   gap: 24px;
 }
-/* .our-team-list > li > p {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #434455;
-} */
+.team-links-list {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  padding-top: 8px;
+}
+.team-links-item {
+  width: 40px;
+  height: 40px;
+}
+.team-link:hover {
+  background-color: #404bbf;
+}
+.team-link {
+  background-color: #4d5ae5;
+  display: flex;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 250ms linear;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.team-link-icon {
+  fill: #f4f4fd;
+}
 
-/* .our-team-list > li > h3 {
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
-} */
-
-/* .our-team-list > li > img {
-} */
+.team-link-wrapper {
+}
 
 .portfolio-wrap {
   padding: 32px 16px;
@@ -374,6 +396,34 @@ ul {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
+}
+
+.portfolio-content-wrap {
+  position: relative;
+  overflow: hidden;
+}
+
+.our-portfolio-item:hover .our-portfolio-content {
+  transform: translateY(0);
+}
+
+.our-portfolio-content {
+  position: absolute;
+  top: 0;
+  background: #4d5ae5;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  width: 360px;
+  height: 300px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  transform: translateY(100%);
+  transition: transform 250ms linear;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .our-portfolio-img {
