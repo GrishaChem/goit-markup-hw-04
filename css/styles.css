@@ -64,6 +64,15 @@ ul {
   padding-top: 188px;
   padding-bottom: 188px;
   margin: 0 auto;
+  background-color: rgba(46, 47, 66, 0.7);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office\ .jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .navigation-links-list {
@@ -121,7 +130,20 @@ ul {
   color: #4d5ae5;
   margin-right: 76px;
   display: inline-block;
+}
+
+.link-logo-footer {
   margin-bottom: 16px;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  margin-right: 76px;
+  display: inline-block;
 }
 
 .logo2:active {
@@ -152,6 +174,15 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
+}
+
+.nav-list-items:active::after {
+  content: "";
+  border-radius: 2px;
+  width: 48px;
+  height: 4px;
+  background: #404bbf;
+  display: flex;
 }
 
 .nav-links-items {
@@ -210,10 +241,6 @@ ul {
   margin-bottom: 48px;
 }
 
-.hero-main {
-  background: #2e2f42;
-  margin: 0 auto;
-}
 .hero-btn-main:focus,
 .hero-btn-main:hover {
   background: #404bbf;
@@ -243,6 +270,14 @@ ul {
   display: flex;
   gap: 24px;
 }
+
+.icon-wrap {
+  display: flex;
+}
+
+/* .solutions-icon {
+  fill: ;
+} */
 
 .solutions-item {
   width: calc((100% - 3 * 24px) / 4);
