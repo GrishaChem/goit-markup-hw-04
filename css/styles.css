@@ -492,11 +492,11 @@ ul {
 
 .footer-wrapper {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-container-1 {
   margin-right: 120px;
-  align-items: baseline;
 }
 
 .social-media-list {
