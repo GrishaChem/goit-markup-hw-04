@@ -200,6 +200,10 @@ ul {
   position: relative;
 }
 
+.nav-links-items.studio-link {
+  color: #404bbf;
+}
+
 .nav-links-items:focus,
 .nav-links-items:hover {
   color: #404bbf;
