@@ -197,6 +197,7 @@ ul {
   color: #2e2f42;
   padding: 24px 0;
   display: block;
+  position: relative;
 }
 
 .nav-links-items:focus,
