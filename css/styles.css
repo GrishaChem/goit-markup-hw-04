@@ -179,7 +179,7 @@ ul {
   color: #f4f4fd;
 }
 
-.nav-list-items::after {
+.nav-links-items::after {
   content: "";
   border-radius: 2px;
   width: 48px;
